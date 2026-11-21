@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "bundle": "set-a",
+      "revision": "v1",
+      "components": [
+        "m-01",
+        "m-02"
+      ],
+      "order": "o-1",
+      "gross": 70,
+      "return_kind": "none",
+      "deductions": {
+        "m-01": 1,
+        "m-02": 1
+      }
+    },
+    {
+      "bundle": "set-a",
+      "revision": "v2",
+      "components": [
+        "m-01",
+        "m-03"
+      ],
+      "order": "o-2",
+      "gross": 65,
+      "return_kind": "partial-unknown",
+      "deductions": {
+        "m-01": 1,
+        "m-03": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "collection": "records",
+  "fields": [
+    "bundle",
+    "revision",
+    "components",
+    "order",
+    "gross",
+    "return_kind",
+    "deductions"
+  ],
+  "example": {
+    "bundle": "set-a",
+    "revision": "v1",
+    "components": [
+      "m-01",
+      "m-02"
+    ],
+    "order": "o-1",
+    "gross": 70,
+    "return_kind": "none",
+    "deductions": {
+      "m-01": 1,
+      "m-02": 1
+    }
+  }
+}
